@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header is her */
+.header {
+	width: 100%;
+	background-color: white;
+	float: left;
+	border-bottom: 2px solid pink;
+	position: fixed;
+}
+
+.continer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo-part {
+	width: 20%;
+	float: left;
+}
+
+.logo-part img {
+	width: 100%;
+	height: 69px;
+	margin-top: 4px;
+}
+
+.mune {
+	width: 60%;
+	float: left;
+}
+
+.mune nav{
+}
+
+.mune nav ul {
+	text-align: center;
+}
+
+.mune nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 30px;
+	color: black;
+}
+
+.mune nav ul li a {
+	text-decoration: navajowhite;
+	font-weight: bold;
+	font-size: 21px;
+	color: black;
+}
+
+.mune nav ul li a:hover {
+	color: tomato;
+}
+
+.scarch-part {
+	width: 20%;
+	float: right;
+}
+
+.scarch-part #scarch::placeholder  {
+	font-size: 20px;
+}
+
+.scarch-part input {
+	width: 192px;
+	padding: 12px;
+	margin: 20px;
+	border: 1px solid red;
+	border-radius: 20px;
+	font-size: 15px;
+	color: tomato
+}
+
+.scarch-part input::placeholder {
+	text-align: end;
+	color: black;
+}
+
+.fa-solid, .fas {
+	font-family: "Font Awesome 6 Free";
+	font-weight: 900;
+	font-size: 30px;
+	margin-left: -10px;
+	color: royalblue;
+}
+
+/* main is her */
+main {
+	width: 100%;
+	float: left;
+	padding: 150px;
+	background-color: #ddd;
+}
+
+main .hero-continer {
+
+}
+
+
+#hero {
+	
+	/* background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; */
+}
+
+.hero-writing-part {
+	width: 50%;
+	float: left;
+}
+
+.hero-writing-part h1 {
+	font-size: 35px;
+	color: #ff0000ed;
+	margin-top: 8px;
+}
+
+.hero-writing-part p {
+	width: 300px;
+	margin: 21px 0px;
+	color: black;
+	line-height: 24px;
+}
+
+.hero-writing-part button {
+	width: 125px;
+	height: 40px;
+	border: 1.5px solid red;
+	border-radius: 10px;
+	background-color: transparent;
+	margin-bottom: 10px;
+	cursor: pointer;
+	font-size: 15px;
+	color: #0B9445;
+	font-weight: bolder;
+	box-shadow: 2px 2px 4px black;
+}
+
+.hero-writing-part button:hover {
+	background-color: tomato;
+	color: white;
+	border: 1px solid white;
+}
+
+.icon {
+	margin-top: 14px;
+	margin-left: -39px;
+}
+
+.fa-brands, .fab {
+	font-family: "Font Awesome 6 Brands";
+	font-weight: 400;
+	margin-left: 21px;
+	font-size: 30px;
+	color: deeppink;
+}
+
+.hero-image-part {
+	width: 50%;
+	float: left;
+}
+
+.hero-image-part img {
+	width: 100%;
+	border-radius: 50%;
+	box-shadow: 1px 1px 5px red;
+	border: 5px solid white;
+}
